@@ -1,0 +1,26 @@
+body {
+	font-family: Arial;
+	color: #555555;
+}
+#header {
+	color: black;
+}
+#h2 {
+	font-size: 18px;
+	margin-top: 40px;
+}
+#footer {
+	padding: 12px;
+}
+th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+tr :first-child {
+	width: 100px;
+	font-weight: bold;
+}
+tr:hover {
+	background-color: #FEFFDB;
+}
