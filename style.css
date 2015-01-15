@@ -1,26 +1,42 @@
 body {
-	font-family: Arial;
-	color: #555555;
+    font-family: Arial;
+    color: #555555;
 }
 #header {
-	color: black;
+    color: black;
 }
 #h2 {
-	font-size: 18px;
-	margin-top: 40px;
+    font-size: 18px;
+    margin-top: 40px;
 }
 #footer {
-	padding: 12px;
+    padding: 12px;
 }
 th {
-	height: 40px;
-	font-size: 14px;
-	text-align: left;
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
 }
-tr :first-child {
-	width: 100px;
-	font-weight: bold;
+tr:first-child {
+    width: 100px;
+    font-weight: bold;
 }
 tr:hover {
-	background-color: #FEFFDB;
+    background-color: #FEFFDB;
+}
+a [target="recipe"] {
+    float: right;
+    border-color: #8ABD2B;
+    background-color: #C8F279;
+    height: 30px
+}
+#h1 {
+    font-size: 18px
+}
+#h2 {
+    font-size: 24px
+}
+img {
+    float: left;
+    width: 100px;
 }
