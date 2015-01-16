@@ -40,6 +40,8 @@ div .logo {
     border-color: #8ABD2B;
     background-color: #C8F279;
     height: 30px;
+    border: 1px solid;
+    padding: 1px;
 }
 img {
     float: left;
