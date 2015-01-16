@@ -1,3 +1,7 @@
+nav {
+    height: 80px;
+    background-color: lightgrey;
+}
 body {
     font-family: Arial;
     color: #555555;
@@ -5,7 +9,10 @@ body {
 #header {
     color: black;
 }
-#h2 {
+h1 {
+	font-size: 18px;
+}
+h2 {
     font-size: 18px;
     margin-top: 40px;
 }
@@ -24,19 +31,30 @@ tr:first-child {
 tr:hover {
     background-color: #FEFFDB;
 }
-a [target="recipe"] {
+div .logo {
+    float: left;
+    height: 30px;
+}
+.recipe {
     float: right;
     border-color: #8ABD2B;
     background-color: #C8F279;
-    height: 30px
-}
-#h1 {
-    font-size: 18px
-}
-#h2 {
-    font-size: 24px
+    height: 30px;
 }
 img {
     float: left;
     width: 100px;
+    height: 75px;
+}
+.clear {
+    clear: both;
+}
+.Recipelist {
+	border: solid thin;
+	border-color: #444444;
+	background-color: #FEFFDB;
+	width: 400px;
+	height: 120px;
+	padding: 15px;
+	border-radius: 10px / 10px;
 }
