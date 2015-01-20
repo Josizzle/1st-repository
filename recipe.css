@@ -5,6 +5,7 @@
     word-spacing: 10px;
     border-radius: 12px;
     -webkit-flex-direction: webkit-justify-content;
+    z-index: auto;
 }
 img {
 	float: left;
@@ -29,4 +30,17 @@ img {
     border: 1px solid;
     padding: 10px;
 }
+
+@media screen and (max-device-width: 479px) {
+	.recipelogo {
+		-webkit-justify-content: center;
+	}
+	p, h2, h3 {
+		-webkit-justify-content: center	;
+	}
+	nav {
+		-webkit-justify-content: center;
+		z-index: auto;
+	}
+	}
 
