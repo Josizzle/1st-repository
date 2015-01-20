@@ -1,6 +1,11 @@
-nav {
+.navbar {
+	text-align: right;
     height: 80px;
     background-color: lightgrey;
+    word-spacing: 10px;
+    border-radius: 12px;
+    -webkit-flex-direction: webkit-justify-content;
+    z-index: auto;
 }
 body {
     font-family: Arial;
@@ -60,3 +65,15 @@ img {
     padding: 15px;
     border-radius: 10px / 10px;
 }
+@media screen and (device-width: 479px) {
+	.recipelogo {
+		-webkit-justify-content: center;
+	}
+	p, h2, h3 {
+		-webkit-justify-content: center	;
+	}
+	.navbar {
+		-webkit-justify-content: center;
+	}
+	}
+	
