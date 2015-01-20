@@ -1,0 +1,32 @@
+.navbar {
+	text-align: right;
+	height: 80px;
+    background-color: lightgrey;
+    word-spacing: 10px;
+    border-radius: 12px;
+    -webkit-flex-direction: webkit-justify-content;
+}
+img {
+	float: left;
+	margin-left: auto;
+	height: 50px;
+	width: 100px;
+}
+.box {
+	float: left; 
+	-webkit-flex-direction: row;
+	-webkit-justify-content: center;
+	background-color: lightgrey;
+}
+.clear {
+	clear: both;
+}
+.recipe {
+	float: left;
+	border-color: #8ABD2B;
+    background-color: #C8F279;
+    height: 30px;
+    border: 1px solid;
+    padding: 10px;
+}
+
