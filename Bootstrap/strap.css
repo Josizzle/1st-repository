@@ -1,21 +1,28 @@
 nav {
-	background-color: black;
+    background-color: black;
 }
 nav a {
-	color: white;
-	text-decoration: none;
-	margin-left: 5%;
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
 }
 .circle {
-	border-radius: 50%; 
-	background-color: lightgrey;
-	height: 250px;
-	width: 250px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    height: 250px;
+    width: 250px;
 }
 h1, h2 {
-	background-color: white;
-	text-align: center;
+    background-color: white;
+    text-align: center;
 }
 .background {
-	background-color: lightgrey;
+    background-color: lightgrey;
+}
+body {
+    font-size: 14px;
+    line-height: 1.428;
+}
+p {
+    bottom-margin: 10px;
 }
