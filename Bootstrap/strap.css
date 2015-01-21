@@ -25,4 +25,14 @@ body {
 }
 p {
     bottom-margin: 10px;
+    color: lightgrey;
+}
+span {
+    color: lightgrey;
+}
+.black {
+    color: black;
+}
+p:last-child {
+    color: black;
 }
