@@ -3,47 +3,60 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="bootstrap.html">
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="strap.css">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
-    <script src="bootsrap.js"></script>
-    <script>
-    alert("Here we go again!");
-    </script>
+    
 </head>
 
 <body>
     <footer>
     </footer>
     <script type="text/javascript">
-    // how to create an array of four names
-    var arrayName = [Harry, Larry, Mally, Sally]
-
-    array[0] = "Harry";
-    array[1] = "Larry";
-    array[2] = "Mally";
-    array[3] = "Sally";
-    console.log(Larry);
+    // how to create an array of four names log second item in the array to console
+    var arrayName = ["Harry", "Larry", "Mally", "Sally", "Patty"];
+    	console.log(arrayName[1]);
 
     // How to create a For Loop that logs the number 1-10 to the console
-    var i;
-    for ([var i = 1];
-        [i < 10];
-        [i--]) {
-        console.log(i);
+    var counter;
+    	for (counter = 0; counter<= 10; counter++)
+    	{
+
+    		console.log(counter);
+
+    	}
+
+   //Loop through your name array, logging each name to the console. 
+    var arrayCounter;
+    	for (arrayCounter = 0; arrayCounter <arrayName.length; arrayCounter++) 
+    	{
+    		console.log(arrayName[arrayCounter]);
+    	}
+
+    //Loop through your name array, logging each name that starts with "P" to the console. 
+    var Pword;
+    	for (Pword = 0; Pword <arrayName.length; Pword++)
+    	{
+    		if (arrayName[Pword].substring(0, 1)==="P") {
+    		console.log(arrayName[Pword]); 
+
+    		};
+    	}        
+
+    // How to create an object with attributes and a value. And also log your object to the console.
+    var car = {
+    	doors: 4,
+        honk: function(){
+
+        	console.log("honk");
+        },
+        viewobject: function(){
+
+        	console.log(car);
+        }
     }
 
-    // How to create a <button> element
-    var btn = document.createElement("BUTTON");
-    // How to creat a text node
-    var t = document.createTextNode("CLICK ME");
-    // How to append the text to a <button>
-    btn.appendChild(t);
-    // How to append <button> to <body>
-    document.body.appendChild(btn);
-    // Syntax
-    document.createElement(nodename)
+    car.honk();
+    car.viewobject();
+
     </script>
 </body>
 
