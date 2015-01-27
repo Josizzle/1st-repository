@@ -9,6 +9,9 @@ nav {
     margin-top: -45px;
     word-spacing: 10px;
 }
+p {
+    margin: auto;
+}
 a {
     color: #FFFFFF;
     font-size: 12px;
@@ -26,10 +29,20 @@ h4 {
     color: #FFFFFF;
 }
 .name {
-	color: black;
-	text-align: left;
+    color: black;
+    text-align: left;
 }
 .prof {
-	color: black;
-	text-align: left;
+    color: black;
+    text-align: left;
+}
+.size {
+    font-size: 12px;
+}
+.font {
+    font-size: 8px;
+}
+.button {
+    border-style: solid;
+    color: black;
 }
