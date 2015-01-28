@@ -44,5 +44,9 @@ h4 {
     color: white;
 }
 .progress {
-	border-style: solid;
+    border-style: solid;
 }
+$(".rotate").textrotator( {
+    animation: "dissolve", seperator: ",", speed: 2000
+}
+);
