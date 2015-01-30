@@ -1,0 +1,51 @@
+nav {
+    background-image: url("../img/14.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p {
+    margin: auto;
+}
+a {
+    color: #FFFFFF;
+    font-size: 12px;
+    border: 0;
+}
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+h2 {
+    text-align: left;
+    color: #FFFFFF;
+}
+h4 {
+    text-align: center;
+    color: #FFFFFF;
+}
+.name {
+    color: black;
+    text-align: left;
+}
+.size {
+    font-size: 12px;
+}
+.font {
+    font-size: 15px;
+}
+.button {
+    border-style: solid;
+    color: black;
+}
+.bottom {
+    color: white;
+}
+.progress {
+    border-style: solid;
+}
+/*How to style your unorganized lists*/
+
+ul {
+    font-weight: bold;
+    list-style-type: circle;
+}
