@@ -21,12 +21,20 @@
                 </div>
                 <div class="col-md-6" style="text-align:right; word-spacing:20px;">
                     <br>
-                    <a href="https://www.google.com">HOME</a>
-                    <a href="https://www.google.com">PROFILE</a>
-                    <a href="https://www.google.com">SERVICES</a>
-                    <a href="https://www.google.com">RESUME</a>
-                    <a href="https://www.google.com">PORTFOLIO</a>
-                    <a href="https://www.google.com">CONTACT</a>
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="https://www.google.com">HOME</a>
+                        </li>
+                        <li role="presentation" class="active"><a href="https://www.google.com">PROFILE</a>
+                        </li>
+                        <li role="presentation" class="active"><a href="https://www.google.com">SERVICES</a>
+                        </li>
+                        <li role="presentation" class="active"><a href="https://www.google.com">RESUME</a>
+                        </li>
+                        <li role="presentation" class="active"><a href="https://www.google.com">PORTFOLIO</a>
+                        </li>
+                        <li role="presentation" class="active"><a href="https://www.google.com">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -36,7 +44,7 @@
         </p>
 
     </nav>
-    <div class="container" style="padding:15px;">
+    <div class="container">
         <div class="row">
             <div class="col-md-4" style="background-color:white;">
                 <i class="fa fa-envelope-o"></i>
@@ -116,7 +124,7 @@
                 <h3>PROFESSIONAL PROFILE</h3>
                 <p>I am new in the web development / tech industry and pursuing future business opportunities. </p>
                 <br>
-                <p>I am alone and feel the charm of existence in this spot, which was created for the bliss of soulds like mine I am so happy my dear friend.</p>
+                <p>I am looking for freelance work and also front-end web development projects to work on. I have a military background in the US Navy (9yrs) and have a BS in Business Entrenpreneurship from the University of Tampa.</p>
             </div>
             <!-- Both divs below do not close out divs above -->
         </div>
@@ -161,14 +169,14 @@
                 <p style="margin-bottom:10px;"><strong>Text rotator</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>Familiar with this javascript plugin and can add text rotating functions to make websites look more alive to the user.</p>
                 <br>
                 <i class="fa fa-eye"></i>
 
                 <p style="margin-bottom:10px;"><strong>Clear code</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>Able to make code easy to read and understand. Writing code is like writing an essay, your message is more convincing when it is accompanied by proper grammar and punctuation. When writing code, you should follow the same principle.</p>
                 <br>
             </div>
             <div class="col-md-4">
@@ -178,14 +186,14 @@
                 <p style="margin-bottom:10px;"><strong>Slideshow</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>Able to present and implement a series of projected images and or photgraphic slides to websites to give it a more of good view to it.</p>
 
                 <i class="fa fa-desktop" style="margin-top:25px;"></i>
 
                 <p style="margin-bottom:10px;"><strong>Responsive design</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>My approach to web design is to provide an optimal viewing experience for easy reading and navigation with a minimum of resizing, panning, and scrolling across a wide range of devices (from desktop computer monmitors to mobile phones).</p>
 
             </div>
             <div class="col-md-4">
@@ -195,14 +203,14 @@
                 <p style="margin-bottom:10px;"><strong>Easy configure</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>I setup simple-to-use installation step-by-step instructions for users who do not understand how to install or run certain programs.</p>
 
                 <i class="fa fa-ambulance" style="margin-top:15px;"></i>
 
                 <p style="margin-bottom:10px;"><strong>Support</strong>
                 </p>
 
-                <p>I am alone. and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy my dear friend.</p>
+                <p>Provide customer and user support whenever needed. Able to be contacted via phone, email, and social media for customer support issues or questions.</p>
                 <br>
             </div>
         </div>
@@ -222,7 +230,9 @@
                 <br>
                 <p>I'm excited and anxious to get started with freelance web design projects. Click the "Contact me" button below.</p>
                 <br>
-                <button type="button">Contact me</button>
+
+                <button type="button" class="btn btn-primary">Contact me</button>
+
             </div>
         </div>
     </div>
@@ -258,7 +268,9 @@
                 </p>
                 <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
                 <hr>
-                <button type="button" style="margin-bottom:20px;">Download CV</button>
+                <button type="button" class="btn btn-primary" aria-label="Left-Align" style="margin-bottom:20px;">Download CV
+                    <span class="glyphicon glyphicon-floppy-save" aria-hidden="true" />
+                </button>
             </div>
             <div class="col-md-4">
 
@@ -331,16 +343,14 @@
             <div class="col-md-6">
                 <!-- How to add input groups with text field for name, email, and textarea message -->
                 <form>
-                    <input type="text" name="fname" placeholder="Name" style="width: 450px; margin-top:200px;" />
+                    <input type="text" name="fname" placeholder="Name" style="width:50%; margin-bottom:1%;" />
                     <br>
 
-                    <input type="text" name="email" placeholder="E-mail" style="width: 450px; margin-top:10px;" />
-
+                    <input type="text" name="email" placeholder="E-mail" style="width:50%; margin-bottom:1%;" />
                     <br>
-                    <textarea placeholder="Your message" style="width: 450px; height:100px; margin-top:10px;"></textarea>
+                    <textarea placeholder="Your message"></textarea>
                     <br>
-
-                    <button type="submit" class="btn btn-default" style="color:red;">Send it</button>
+                    <button type="button" class="btn btn-primary">Send it</button>
                 </form>
 
             </div>
