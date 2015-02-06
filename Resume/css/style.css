@@ -1,5 +1,5 @@
 nav {
-    background-image: url("../img/14.jpg");
+    background-image: url("14.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 575px;
@@ -41,7 +41,7 @@ h5 {
 }
 .rot {
     text-align: center;
-    color: white;
+    color: red;
 }
 .ski {
     margin-top: 15px;
@@ -164,8 +164,11 @@ ul {
 textarea, input {
     color:black;
 }
-form {
+.name {
     margin-top: 200px;
+}
+.form-control {
+    margin-top: 5px;
 }
 textarea {
     width: 50%;
