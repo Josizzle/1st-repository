@@ -3,9 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
+    <!-- Meta tag to view website on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- bootstrap cdn link stylesheet -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <!-- link stylesheet for font-awesome cdn -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- style.css link -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/simpletextrotator.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -16,39 +20,53 @@
 <!-- body tag doesn't reckognize closing body tag below Why? -->
 
 <body>
-    <nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="wow shake">
-                        <h2>Josizzle</h2>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="wow shake">
+                            <h2>Josizzle</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
+                    <div class="col-md-6">
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav nav-nav nav-justified">
+                                <li class="active"><a href="http://www.josizzle.com">HOME</a>
+                                </li>
+                                <li class="dropdown" />
+                                <li class="active"><a href="https://www.facebook.com/djosecite">PROFILE</a>
+                                </li>
+                                <li class="active"><a href="http://www.josizzle.com">SERVICES</a>
+                                </li>
+                                <li class="active"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">RESUME</a>
+                                </li>
+                                <li class="active"><a href="https://github.com/Josizzle">PORTFOLIO</a>
+                                </li>
+                                <li class="active"><a href="http://www.josizzle.com">CONTACT</a>
+                                </li>
 
-                    <ul class="nav nav-pills">
-                        <li role="presentation" class="active"><a href="http://www.josizzle.com">HOME</a>
-                        </li>
-                        <li role="presentation" class="active"><a href="https://www.facebook.com/djosecite">PROFILE</a>
-                        </li>
-                        <li role="presentation" class="active"><a href="http://www.josizzle.com">SERVICES</a>
-                        </li>
-                        <li role="presentation" class="active"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">RESUME</a>
-                        </li>
-                        <li role="presentation" class="active"><a href="https://github.com/Josizzle">PORTFOLIO</a>
-                        </li>
-                        <li role="presentation" class="active"><a href="http://www.josizzle.com">CONTACT</a>
-                        </li>
-                    </ul>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <h1 class="hel">Hello, I'm Danny J</h1>
+    </nav>
+
+    <div class="background-image">
+        <h1>Hello, I'm Danny J</h1>
         <!-- Text rotator tag below -->
         <p class="rot"><span class="rotate">VISUAL DESIGNER, FRONT END DEVELOPER, PHP PROGRAMMER, C# PROGRAMMER</span>
         </p>
+    </div>
 
-    </nav>
+
     <div class="container">
         <div class="row">
             <div class="wow rotateIn">
@@ -79,9 +97,8 @@
         </div>
         <!-- still can't figure out how to close this div -->
         <div class="row">
-
-            <div class="wow bounceInUp">
-                <div class="col-md-3">
+            <div class="col-md-3">
+                <div class="wow bounceInUp">
                     <img src="img/21.JPG" alt="Danny J" class="img-thumbnail" />
                 </div>
             </div>
@@ -259,7 +276,7 @@
             </div>
         </div>
     </div>
-  
+
 
 
     <hr />
@@ -407,7 +424,9 @@
                 <!-- How to add input groups with text field for name, email, and textarea message -->
                 <form>
                     <fieldset disabled>
-                       <div class="name"><input type="text" class="form-control" placeholder="Name" /></div>
+                        <div class="name">
+                            <input type="text" class="form-control" placeholder="Name" />
+                        </div>
 
 
                         <input type="text" class="form-control" placeholder="E-mail" />
