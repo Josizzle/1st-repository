@@ -1,0 +1,8 @@
+.contact li {
+	float: left;
+	margin-left: 20px;
+}
+.social li {
+	float: right;
+	margin-right: 20px;
+}
