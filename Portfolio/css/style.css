@@ -1,25 +1,27 @@
-.contact li {
+/*.contact li {
 	float: left;
 	margin-left: 20px;
+	list-style-type: none;
 }
 .social li {
 	float: right;
 	margin-right: 20px;
-}
-.jumbotron {
+	list-style-type: none;
+}*/
+/*.jumbotron {
 	text-align: center;
 	background-image: url(../img/background.png);
 	color: white;
 	height: 600px;
-}
+}*/
 h1 {
 	margin-top: 125px;
 }
 .navbar {
-	background-color: lightgrey;
+	background-color: #f5f7fa;
 }
 .btn-primary {
-	background-color: lightgreen;
+	background-color: #67ceb8;
 	border-color: none;
 }
 .btn-default {
@@ -29,16 +31,23 @@ h1 {
 	text-align: center;
 }
 .container-fluid {
-	background-color: lightgrey;
+	background-color: #f5f7fa;
 }
-.granMotel, .graphart, p, h2, h3 {
+/*.granMotel, .graphart, p, h2, h3 {
 	text-align: center;
 }
 .granMotel {
 	background-color: white;
-	margin-top: -19px;
+	
 }
 .graphart {
 	background-color: white;
-	margin-top: -19px;
+
+}*/
+footer {
+	background-color: #283645;
+	color: white;
+}
+ul {
+	padding: 0;
 }
