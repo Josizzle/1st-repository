@@ -22,6 +22,9 @@ h1 {
 	background-color: lightgreen;
 	border-color: none;
 }
+.btn-default {
+	background-color: lightgrey;
+}
 .container {
 	text-align: center;
 }
