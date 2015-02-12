@@ -88,15 +88,16 @@
 
 #reen {
   background-color: #2f4052;
-  color: white; }
+  color: #a3b1bf; }
 
 /*Footer Sass*/
 footer {
   /*border: solid thin red;*/
   background-color: #283645;
-  color: white; }
+  color: #a3b1bf; }
   footer .tab li {
     float: right;
-    margin-right: 20px; }
+    margin-right: 20px;
+    color: #a3b1bf; }
 
 /*# sourceMappingURL=main.css.map */
