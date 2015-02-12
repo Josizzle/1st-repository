@@ -1,6 +1,13 @@
+/*Contact and Social Top-Header*/
+#header {
+	/*border: solid thin black;*/
+	padding: 10px 0;
+	background-color: #f5f7fa;
+}
 .contact li {
 	float: left;
-	margin-left: 20px;
+	word-spacing: 7px;
+	margin-left: 10px;
 	list-style-type: none;
 }
 .social li {
