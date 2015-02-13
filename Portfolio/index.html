@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Meta and Link tags inside of <head> -->
 
 <head>
     <meta charset="utf-8" />
@@ -24,71 +25,102 @@
                     </ul>
 
                     <ul class="social pull-right">
-                        <li><a href="https://www.facebook.com/djosecite" alt="facebook"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/djosecite"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="https://plus.google.com/u/0/114162916468957812853/posts/p/pub" alt="Google+"><i class="fa fa-google-plus"></i></a>
+                        <li><a href="https://plus.google.com/u/0/114162916468957812853/posts/p/pub"><i class="fa fa-google-plus"></i></a>
                         </li>
-                        <li><a href="https://twitter.com/JosizzleY2k" alt="Twitter"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/JosizzleY2k"><i class="fa fa-twitter"></i></a>
                         </li>
 
-                        <li><a href="http:www.josizzle.com" alt="Website"><i class="fa fa-globe"></i></a>
+                        <li><a href="http://www.josizzle.com"><i class="fa fa-globe"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navbar with toggle icons -->
+
+    <!-- Bootstrap Navbar with image brand -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="img/Reenlayer.png">
-                    </a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li><a href="#">PORTFOLIO</a>
-                        </li>
-                        <li><a href="#">BLOG</a>
-                        </li>
-                        <li><a href="#">PAGES</a>
-                        </li>
-                        <li><a href="#">FEATURES</a>
-                        </li>
-                        <li><a href="#">MEGA MENU</a>
-                        </li>
-                        <li><a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-                <p class="search"><img src="img/searchicon.png" />
-                </p>
+            <div class="navbar-header">
+                <!-- Collapse navbar to drop down icon -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Image Brand -->
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="img/Reenlayer.png">
+                </a>
             </div>
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1>MADE FOR DESIGNERS</h1>
-            <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">GET STARTED NOW</a>
+            <!-- Navbar Toggle Menu -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">HOME</a>
+                    </li>
+                    <li><a href="#">PORTFOLIO</a>
+                    </li>
+                    <li><a href="#">BLOG</a>
+                    </li>
+                    <li><a href="#">PAGES</a>
+                    </li>
+                    <li><a href="#">FEATURES</a>
+                    </li>
+                    <li><a href="#">MEGA MENU</a>
+                    </li>
+                    <li><a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="search"><img src="img/searchicon.png" alt="searchicon" />
             </p>
         </div>
+    </nav>
+
+    <!-- Carousel Caption Jumbotron -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/background.png" alt="background">
+                <!-- Tag for carousel text -->
+                <div class="carousel-caption">
+                    <h1>MADE FOR DESIGNERS</h1>
+                    <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">GET STARTED NOW</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/background.png" alt="background">
+                <div class="carousel-caption">
+                    <h1>MADE FOR DESIGNERS</h1>
+                    <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">GET STARTED NOW</a>
+                    </p>
+                </div>
+            </div>
+            <div class="item third">
+                <img src="img/background.png" alt="background">
+                <div class="carousel-caption">
+                    <h1>MADE FOR DESIGNERS</h1>
+                    <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">GET STARTED NOW</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+
     <!--  Beautiful text -->
     <div id="beautiful">
         <div class="container">
@@ -102,21 +134,21 @@
             <div id="passion">
                 <div class="container">
                     <div class="col-md-1">
-                        <img src="img/heart.png" />
+                        <img src="img/heart.png" alt="heart" />
                     </div>
                     <div class="col-md-3">
                         <h3>Passion</h3>
                         <p>Magnis modispsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
                     </div>
                     <div class="col-md-1">
-                        <img src="img/lightbulb.png" />
+                        <img src="img/lightbulb.png" alt="lightbulb" />
                     </div>
                     <div class="col-md-3">
                         <h3>Creativity</h3>
                         <p>Magnis modispsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
                     </div>
                     <div class="col-md-1">
-                        <img src="img/star.png" />
+                        <img src="img/star.png" alt="star" />
                     </div>
                     <div class="col-md-3">
                         <h3>Quality</h3>
@@ -153,16 +185,16 @@
         <div class="row">
             <div class="container">
                 <div class="col-md-3">
-                    <img src="img/books.png" />
+                    <img src="img/books.png" alt="books" />
                 </div>
                 <div class="col-md-3">
-                    <img src="img/vinyl.png" />
+                    <img src="img/vinyl.png" alt="vinyl" />
                 </div>
                 <div class="col-md-3">
-                    <img src="img/sign.png" />
+                    <img src="img/sign.png" alt="sign" />
                 </div>
                 <div class="col-md-3">
-                    <img src="img/signwall.png" />
+                    <img src="img/signwall.png" alt="signwall" />
                 </div>
             </div>
         </div>
@@ -181,7 +213,7 @@
                 <div class="container">
                     <div class="col-md-3">
                         <h4>WHO WE ARE</h4>
-                        <p><img src="img/Reenlayer.png" />
+                        <p><img src="img/Reenlayer.png" alt="Reenlayer" />
                         </p>
                         <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
                         <p><strong>More about us -> </strong>
@@ -225,17 +257,18 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="tab pull-right">
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
-                        <li>About</li>
-                        <li>Services</li>
                         <li>Contact</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Portfolio</li>
+                        <li>Home</li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- Script tags -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
