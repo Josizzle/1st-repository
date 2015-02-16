@@ -80,10 +80,12 @@
     margin-right: 50px; }
 
 #work {
-  /*border: solid thin black;*/ }
+  /*border: solid thin black;*/
+  background-color: white; }
   #work h3 {
     text-align: center;
-    margin-top: 100px; }
+    margin-top: 100px;
+    padding-top: 100px; }
   #work p {
     text-align: center;
     width: 490px;
