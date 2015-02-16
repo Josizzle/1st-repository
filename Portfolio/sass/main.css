@@ -69,8 +69,12 @@
 
 /*Passion container*/
 #passion {
-  /*border: solid thin black;*/
+  border: solid thin red;
   margin-bottom: 100px; }
+  #passion img {
+    padding-top: 20px; }
+  #passion p {
+    padding-top: 10px; }
 
 /*Navbar REEN*/
 .navbar {
