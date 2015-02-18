@@ -69,7 +69,6 @@
 
 /*Passion container*/
 #passion {
-  border: solid thin red;
   margin-bottom: 100px; }
   #passion img {
     padding-top: 20px; }
@@ -77,11 +76,41 @@
     padding-top: 10px; }
 
 /*Navbar REEN*/
-.navbar {
-  background-color: #ffffff; }
-  .navbar .search {
-    text-align: right;
-    margin-right: 50px; }
+.navbar .brand {
+  background-color: #ffffff;
+  float: left;
+  display: block; }
+
+.container {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto; }
+
+.btn-navbar {
+  float: right;
+  display: none; }
+
+.icon-bar {
+  border: solid thin yellow;
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 1px; }
+
+.yamm .nav {
+  position: static;
+  border: solid thin red; }
+  .yamm .nav li {
+    float: right;
+    list-style-type: none; }
+  .yamm .nav p {
+    text-align: center; }
+
+.col-md-3 li {
+  text-align: center; }
+
+div {
+  display: block; }
 
 #work {
   /*border: solid thin black;*/
