@@ -18,7 +18,8 @@
 		width: 554px;
 	}
 }
-
-#carousel-generic {
-	// border: solid thin red;
+// .owl-carousel lower images
+#owl-demo .item {
+	margin: 3px;
+	display: block;
 }

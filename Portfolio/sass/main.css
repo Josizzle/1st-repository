@@ -53,6 +53,10 @@
     height: 300px;
     width: 554px; }
 
+#owl-demo .item {
+  margin: 3px;
+  display: block; }
+
 /*Beautiful text jargon*/
 #beautiful {
   /*	border: solid thin black;*/
@@ -94,6 +98,9 @@
   background-color: #1ABB9C; }
   .btn-submit .fa-angle-right {
     color: white; }
+
+.dropdown-menu {
+  background-color: #F5F7FA; }
 
 #work {
   /*border: solid thin black;*/
