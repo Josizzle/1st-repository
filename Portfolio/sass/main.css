@@ -1,10 +1,5 @@
-/*Contact and Social Top-Header*/
-#header {
-  /*border: solid thin black;*/
-  padding: 10px 0;
-  background-color: #f5f7fa; }
-
-.contact li {
+/*info and social navbar-header*/
+.info li {
   float: left;
   word-spacing: 7px;
   margin-left: 10px;
@@ -14,6 +9,9 @@
   float: right;
   margin-right: 20px;
   list-style-type: none; }
+
+.navbar-header {
+  background-color: #f5f7fa; }
 
 .carousel-caption {
   text-align: center;
@@ -75,42 +73,27 @@
   #passion p {
     padding-top: 10px; }
 
-/*Navbar REEN*/
-.navbar .brand {
-  background-color: #ffffff;
-  float: left;
-  display: block; }
-
-.container {
-  width: auto;
-  margin-right: auto;
-  margin-left: auto; }
-
-.btn-navbar {
-  float: right;
-  display: none; }
-
-.icon-bar {
-  border: solid thin yellow;
-  display: block;
-  width: 18px;
-  height: 2px;
-  border-radius: 1px; }
-
+/*Navbar REEN megamenu*/
 .yamm .nav {
-  position: static;
-  border: solid thin red; }
-  .yamm .nav li {
-    float: right;
-    list-style-type: none; }
-  .yamm .nav p {
-    text-align: center; }
+  position: static; }
 
-.col-md-3 li {
-  text-align: center; }
+.navbar-header ul {
+  list-style-type: none; }
 
-div {
-  display: block; }
+.fa-search {
+  display: block;
+  float: right;
+  margin-left: 225px; }
+
+.dropdown-menu {
+  top: auto;
+  left: auto;
+  position: absolute; }
+
+.btn-submit {
+  background-color: #1ABB9C; }
+  .btn-submit .fa-angle-right {
+    color: white; }
 
 #work {
   /*border: solid thin black;*/

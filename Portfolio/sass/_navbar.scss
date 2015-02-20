@@ -1,50 +1,23 @@
-/*Navbar REEN*/
-.navbar .brand {
-	// border: solid thin red;
-	background-color: #ffffff;
-	float: left;
-	display: block;
-	// .search {
-	// 	text-align: right;
-	// 	margin-right: 50px;
-	// }
-}
-.container {
-	width: auto;
-	margin-right: auto;
-	margin-left: auto;
-}
-.btn-navbar {
-	// border: solid thin black;
-	float: right;
-	display: none;
-}
-.icon-bar {
-	border: solid thin yellow;
-	display: block;
-	width: 18px;
-	height: 2px;
-	border-radius: 1px;
-}
+/*Navbar REEN megamenu*/
 .yamm .nav {
 	position: static;
-	border: solid thin red;
-		li {
-	float: right;
+}
+.navbar-header ul {
 	list-style-type: none;
 }
-		p {
-			text-align: center;
-		}
-}
-.col-md-3 {
-	li {
-		text-align: center;
-	}
-}
-// .nav .nav-collapse {
-// 	float: none;
-// }
-div {
+.fa-search {
 	display: block;
+	float: right;
+	margin-left: 225px;
+}
+.dropdown-menu {
+	top: auto;
+	left: auto;
+	position: absolute;
+}
+.btn-submit {
+	background-color: #1ABB9C;
+	.fa-angle-right {
+		color: white;
+	}
 }

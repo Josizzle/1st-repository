@@ -1,10 +1,5 @@
-/*Contact and Social Top-Header*/
-#header {
-	/*border: solid thin black;*/
-	padding: 10px 0;
-	background-color: #f5f7fa;
-}
-.contact li {
+/*info and social navbar-header*/
+.info li {
 	float: left;
 	word-spacing: 7px;
 	margin-left: 10px;
@@ -14,4 +9,7 @@
 	float: right;
 	margin-right: 20px;
 	list-style-type: none;
+}
+.navbar-header {
+	background-color: #f5f7fa;
 }
