@@ -39,8 +39,8 @@
 /*grandmotel image container*/
 .grandmotel {
   text-align: center;
-  /*	border: solid thin black;*/
-  background-color: #f2f5f7; }
+  background-color: #f2f5f7;
+  padding-bottom: 90px; }
   .grandmotel .grandMotel {
     bottom-border: 50px;
     margin-bottom: 50px;
@@ -58,41 +58,39 @@
   display: block; }
 
 /*Beautiful text jargon*/
-#beautiful {
-  /*	border: solid thin black;*/
+#beautiful h2 {
   text-align: center;
-  margin: 50px 0; }
-  #beautiful h2 {
-    width: 650px;
-    margin-left: 250px; }
-  #beautiful p {
-    width: 650px;
-    margin-left: 250px; }
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding-top: 50px;
+  color: #506A85; }
+#beautiful p {
+  text-align: center;
+  height: auto;
+  width: 525px;
+  margin: auto;
+  padding: 25px 0;
+  color: #506A85; }
 
 /*Passion container*/
 #passion {
   margin-bottom: 100px; }
   #passion img {
     padding-top: 20px; }
+  #passion h3 {
+    color: #506A85; }
   #passion p {
-    padding-top: 10px; }
+    padding-top: 10px;
+    color: #506A85; }
 
 /*Navbar REEN megamenu*/
 .yamm .nav {
   position: static; }
 
-.navbar-header ul {
-  list-style-type: none; }
-
 .fa-search {
   display: block;
-  float: right;
-  margin-left: 225px; }
-
-.dropdown-menu {
-  top: auto;
-  left: auto;
-  position: absolute; }
+  padding-left: 225px; }
 
 .btn-submit {
   background-color: #1ABB9C; }
@@ -100,19 +98,30 @@
     color: white; }
 
 .dropdown-menu {
-  background-color: #F5F7FA; }
+  background-color: #F5F7FA;
+  padding: 20px; }
+
+.circled li {
+  list-style-type: circle;
+  margin-left: -20px; }
+
+.navbar .btn-navbar {
+  float: right;
+  color: #fff;
+  background-color: #ededed; }
 
 #work {
   /*border: solid thin black;*/
   background-color: white; }
   #work h3 {
     text-align: center;
-    margin-top: 100px;
-    padding-top: 100px; }
+    margin-top: 75px;
+    color: #506A85; }
   #work p {
     text-align: center;
     width: 490px;
-    margin: auto; }
+    margin: auto;
+    color: #506A85; }
   #work .btn-primary {
     margin-bottom: 100px; }
 

@@ -3,17 +3,11 @@
 	position: static;
 }
 .navbar-header ul {
-	list-style-type: none;
+	// border: solid thin red;
 }
 .fa-search {
 	display: block;
-	float: right;
-	margin-left: 225px;
-}
-.dropdown-menu {
-	top: auto;
-	left: auto;
-	position: absolute;
+	padding-left: 225px;
 }
 .btn-submit {
 	background-color: #1ABB9C;
@@ -23,4 +17,26 @@
 }
 .dropdown-menu {
 	background-color: #F5F7FA;
+	padding: 20px;
 }
+.circled li {
+	list-style-type: circle;
+	// color: #1ABB9C;
+	margin-left: -20px;
+}
+.navbar .btn-navbar {
+	// display: none;
+	float: right;
+	color: #fff;
+	background-color: #ededed;
+}
+// @media (max-width: 1024px) {
+// .btn.responsive-menu {
+// 	display: table;
+// 	vertical-align: middle;
+// }
+// }
+// ul.circled li:before {
+// 	font-family: fontello-circle;
+// 	border: solid thin red;
+// }

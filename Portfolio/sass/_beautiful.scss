@@ -1,14 +1,22 @@
 /*Beautiful text jargon*/
 #beautiful {
-/*	border: solid thin black;*/
-	text-align: center;
-	margin: 50px 0;
+	// border: solid thin red;
 	h2 {
-	width: 650px;
-	margin-left: 250px;
+	text-align: center;
+	height: auto;
+	width: auto;
+	margin: auto;
+	padding-top: 50px;
+	color: #506A85;
 	}
+	
 	p {
-	width: 650px;
-	margin-left: 250px;
+	text-align: center;
+	height: auto;
+	width: 525px;
+	margin: auto;
+	padding: 25px 0;
+	color: #506A85;
+
 	}
 }
