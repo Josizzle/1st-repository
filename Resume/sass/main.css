@@ -68,26 +68,35 @@ header {
     margin: auto; }
 
 .whaticando {
-  border: thin solid red;
   padding: 10px 0; }
   .whaticando .wha {
     font-size: 1.5em; }
   .whaticando .mys {
     font-size: 1em; }
   .whaticando .fa-forumbee {
-    margin-top: 20px;
-    border: thin solid red; }
+    margin-top: 20px; }
   .whaticando .tex {
-    border: thin solid red;
     margin-bottom: 10px; }
   .whaticando .fa-eye {
-    border: thin solid red;
     margin-top: 20px; }
   .whaticando .cle {
-    border: thin solid red;
     margin-bottom: 10px; }
   .whaticando .fa-slideshare {
-    border: thin solid red;
     margin-top: 90px; }
+  .whaticando .sli {
+    margin-bottom: 10px; }
+  .whaticando .fa-desktop {
+    margin-top: 20px; }
+  .whaticando .res {
+    margin-bottom: 10px; }
+  .whaticando .fa-wrench {
+    margin-top: 87px; }
+  .whaticando .eas {
+    margin-top: 1px;
+    margin-bottom: 7px; }
+  .whaticando .fa-ambulance {
+    margin-top: 23px; }
+  .whaticando .sup {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
