@@ -10,9 +10,11 @@
     <!-- link stylesheet for font-awesome cdn -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <!-- style.css link -->
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/simpletextrotator.css" />
     <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="sass/main.css" />
 
     <title>Resume</title>
 
@@ -20,51 +22,92 @@
 <!-- body tag doesn't reckognize closing body tag below Why? -->
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="wow shake">
-                            <h2>Josizzle</h2>
+    <header>
+        <div class="navbar">
+            <div class="navbar-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- navbar collapse toggle -->
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="wow shake">
+                                <h2>Josizzle</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav nav-nav nav-justified">
-                                <li class="active"><a href="http://www.josizzle.com">HOME</a>
-                                </li>
-                                <li class="dropdown" />
-                                <li class="active"><a href="https://www.facebook.com/djosecite">PROFILE</a>
-                                </li>
-                                <li class="active"><a href="http://www.josizzle.com">SERVICES</a>
-                                </li>
-                                <li class="active"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">RESUME</a>
-                                </li>
-                                <li class="active"><a href="https://github.com/Josizzle">PORTFOLIO</a>
-                                </li>
-                                <li class="active"><a href="http://www.josizzle.com">CONTACT</a>
-                                </li>
+                        <div class="col-md-6">
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav nav-nav nav-justified">
+                                    <li class="active"><a href="http://www.josizzle.com">HOME</a>
+                                    </li>
+                                    <li class="dropdown" />
+                                    <li class="active"><a href="https://www.facebook.com/djosecite">PROFILE</a>
+                                    </li>
+                                    <li class="active"><a href="http://www.josizzle.com">SERVICES</a>
+                                    </li>
+                                    <li class="active"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">RESUME</a>
+                                    </li>
+                                    <li class="active"><a href="https://github.com/Josizzle">PORTFOLIO</a>
+                                    </li>
+                                    <li class="active"><a href="http://www.josizzle.com">CONTACT</a>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <div class="background-image">
-        <h1>Hello, I'm Danny J</h1>
-        <!-- Text rotator tag below -->
-        <p class="rot"><span class="rotate">VISUAL DESIGNER, FRONT END DEVELOPER, PHP PROGRAMMER, C# PROGRAMMER</span>
-        </p>
+    <!-- Carousel Caption Jumbotron -->
+    <div id="carousel-jumbotron" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="carousel-jumbotron" data-slide-to "0" class="active"></li>
+            <li data-target="carousel-jumbotron" data-slide-to "1"></li>
+        </ol>
+        <!-- carousel listbox -->
+        <div class="carousel-inner" role="listbox">
+            <!-- 1st carousel -->
+            <div class="item active">
+                <img src="img/14.jpg" alt="dannyjump" />
+                <div class="carousel-caption">
+                    <h1>Hello, I'm Danny J</h1>
+                    <p class="rot"><span class="rotate">VISUAL DESIGNER, FRONT END DEVELOPER, PHP PROGRAMMER, C# PROGRAMMER</span>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- 2nd carousel -->
+                <img src="img/4.jpg" alt="wazzup" />
+                <div class="carousel-caption">
+                    <h1>Hire Me</h1>
+                    <p class="rot"><span class="rotate">FIRST WEB DESIGN FREE, BUILDING PORTFOLIO, HMTL5, CSS, JAVASCRIPT</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- left and right carousel controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+    <!-- <div class="background-image">
+        <h1>Hello, I'm Danny J</h1> -->
+    <!-- Text rotator tag below -->
+    <!-- <p class="rot"><span class="rotate">VISUAL DESIGNER, FRONT END DEVELOPER, PHP PROGRAMMER, C# PROGRAMMER</span>
+        </p>
+    </div> -->
 
 
     <div class="container">
@@ -216,8 +259,9 @@
             </div>
         </div>
     </div>
-    <hr />
-    <div class="container">
+
+    <!-- WhatIcando container below -->
+    <div class="container whaticando">
         <div class="row">
             <div class="col-md-4">
                 <div class="wow bounce">
@@ -276,11 +320,8 @@
             </div>
         </div>
     </div>
-
-
-
-    <hr />
-    <div class="container-fluid" style="background-color:lightgrey;">
+    <!-- My stats -->
+    <div class="container-fluid mystats">
         <div class="row">
             <div class="col-md-3">
                 <p class="myst"><strong>MY STATUS</strong>
@@ -300,7 +341,7 @@
         </div>
     </div>
     <!-- There are missing or broken divs below somewhere FML -->
-    <div class="container">
+    <div class="container resume">
         <div class="row">
             <div class="col-md-4">
                 <div class="wow rotateInDownLeft">
@@ -329,7 +370,7 @@
                     </p>
                     <p>Developed financial strategies for over 600 clients who own small businesses. Provided credit counseling and business credit building guidance. Built credit scores and company credibility for over 600 clients. Implemented cash flow strategies, business budgets, and general business strategies. Obtained lines of credit for over 600 small business owners.</p>
                     <hr />
-                    <p><strong>Yeoman Second Class Petty Officer</strong>
+                    <p><strong>Yeoman Second Class Petty Officer (SW)</strong>
                     </p>
                     <p>Annual Training Coordinator for unit and responsible for 45 personnel members completing their AT requirements. Qualified Coxswain and Crewman onboard both MPFUB crafts attached to ACU-1 Det Tampa. Point of contact for sailors mobilizing and applying for official Red Passports.</p>
                 </div>
@@ -366,38 +407,37 @@
             </div>
         </div>
     </div>
-
-
-
     <!-- these closing divs are not reckognized -->
 
-    <div class="container-fluid" style="background-color:lightgrey;">
-        <div class="row">
-            <div class="wow rotateIn">
+
+    <!-- .owl-carousel lower images -->
+    <div class="container-fluid owl-demo">
+        <div class="row wow rotateIn">
+            <div id="owl-demo">
                 <div class="col-md-4">
-                    <p style="margin-left:65px;"><strong>CUSTOMERS</strong>
+                    <p><strong>CUSTOMERS</strong>
                     </p>
                 </div>
-                <div class="col-md-2">
-                    <img src="img/Jerkhut.jpeg" alt="Jerkhut" width="75" height="75" />
+                <div class="col-md-2 atom">
+                    <img src="img/Jerkhut.jpeg" alt="Jerkhut" />
                     <p>Client 1</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="img/Acropolis.jpeg" alt="Acropolis" width="75" height="75" />
+                <div class="col-md-2 atom">
+                    <img src="img/Acropolis.jpeg" alt="Acropolis" />
                     <p>Client 2</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="img/Cristinos.jpeg" alt="Cristino's" width="75" height="75" />
+                <div class="col-md-2 atom">
+                    <img src="img/Cristinos.jpeg" alt="Cristino's" />
                     <p>Client 3</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="img/Jamesjoyce.jpeg" alt="Jamesjoyce" width="75" height="75" />
+                <div class="col-md-2 atom">
+                    <img src="img/Jamesjoyce.jpeg" alt="Jamesjoyce" />
                     <p>Client 4</p>
                 </div>
             </div>
         </div>
     </div>
-    <hr />
+    <!-- footer below -->
     <div class="container-fluid" style="background-color:black; color:white;">
         <div class="row">
             <div class="col-md-6">
@@ -455,10 +495,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+
     <script src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/jquery.countTo.js">
     </script>
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <!-- closing body and html tags are not being reckognized -->
 </body>
 

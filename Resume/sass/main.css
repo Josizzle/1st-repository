@@ -1,0 +1,93 @@
+header {
+  padding: 10px; }
+
+.navbar {
+  background-color: black; }
+  .navbar h2 {
+    color: red; }
+
+.navbar-toggle {
+  background-color: lightgrey; }
+
+.icon-bar {
+  background-color: red; }
+
+#carousel-jumbotron img {
+  padding: 5px; }
+
+.carousel-caption {
+  text-align: center; }
+  .carousel-caption h1 {
+    font-size: 2em; }
+  .carousel-caption p {
+    margin-bottom: 225px;
+    color: red;
+    font-size: 1em; }
+
+#owl-demo .atom {
+  margin: 3px; }
+  #owl-demo .atom p {
+    display: block;
+    width: 75px;
+    text-align: center; }
+
+#owl-demo {
+  display: block;
+  padding-top: 10px; }
+
+.atom img {
+  width: 75px;
+  height: 75px; }
+
+.owl-demo {
+  background-color: lightgrey; }
+
+.resume {
+  padding: 20px 0; }
+  .resume .font {
+    font-size: 1em; }
+  .resume .edu {
+    margin-top: 60px; }
+  .resume .exp {
+    margin-top: 345px; }
+  .resume .fro {
+    margin-top: 135px; }
+  .resume .gr8 {
+    margin-top: 135px; }
+  .resume .uni {
+    margin-top: 120px; }
+  .resume .sma {
+    margin-top: 140px; }
+  .resume .usn {
+    margin-top: 160px; }
+
+.mystats {
+  padding: 10px;
+  background-color: lightgrey; }
+  .mystats .myst {
+    margin: auto; }
+
+.whaticando {
+  border: thin solid red;
+  padding: 10px 0; }
+  .whaticando .wha {
+    font-size: 1.5em; }
+  .whaticando .mys {
+    font-size: 1em; }
+  .whaticando .fa-forumbee {
+    margin-top: 20px;
+    border: thin solid red; }
+  .whaticando .tex {
+    border: thin solid red;
+    margin-bottom: 10px; }
+  .whaticando .fa-eye {
+    border: thin solid red;
+    margin-top: 20px; }
+  .whaticando .cle {
+    border: thin solid red;
+    margin-bottom: 10px; }
+  .whaticando .fa-slideshare {
+    border: thin solid red;
+    margin-top: 90px; }
+
+/*# sourceMappingURL=main.css.map */
