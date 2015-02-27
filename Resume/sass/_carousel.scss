@@ -1,21 +1,14 @@
 #carousel-jumbotron {
 	img {
-		// border: solid thin black;
-		// width: auto;
-		// height: auto;
-		padding: 5px;
-		// background-size: 100%;
-
+		border: solid thin black;
+		width: 100%;
 	}
 }
 
 .carousel-caption {
-	// border: solid thin red;
 	text-align: center;
 	h1 {
 		font-size: 2em;
-		// background-color: yellow;
-		// margin-bottom: 200px;
 	}
 	p {
 		margin-bottom: 225px;
