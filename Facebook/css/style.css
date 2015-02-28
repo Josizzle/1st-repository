@@ -1,0 +1,17 @@
+.facebook img {
+    border: solid thin red;
+    height: 25%;
+    width: 25%;
+}
+.navbar-form {
+    border: solid thin black;
+}
+.homebar {
+	border: solid thin red;
+}
+.col-md-3 {
+    border: solid thick green;
+}
+.col-md-6 {
+    border: solid thin blue;
+}
