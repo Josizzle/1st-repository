@@ -15,3 +15,14 @@
 .col-md-6 {
     border: solid thin blue;
 }
+textarea {
+	border: solid thin blue;
+	width: 595px; height: 55px;
+}
+input {
+	border: solid thin blue;
+	text-transform: uppercase;
+	background-color: blue;
+	color: white;
+	float: right;
+}
