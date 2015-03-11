@@ -1,0 +1,174 @@
+header {
+  padding: 10px; }
+
+.navbar {
+  background-color: black; }
+  .navbar h2 {
+    color: red; }
+
+.navbar-toggle {
+  background-color: lightgrey; }
+
+.icon-bar {
+  background-color: red; }
+
+#carousel-jumbotron img {
+  border: solid thin black;
+  width: 100%; }
+
+.carousel-caption {
+  text-align: center; }
+  .carousel-caption h1 {
+    font-size: 2em; }
+  .carousel-caption p {
+    margin-bottom: 225px;
+    color: red;
+    font-size: 1em; }
+
+#owl-demo .atom {
+  margin: 3px; }
+  #owl-demo .atom p {
+    display: block;
+    width: 75px;
+    text-align: center; }
+
+#owl-demo {
+  display: block;
+  padding-top: 10px; }
+
+.atom img {
+  width: 75px;
+  height: 75px; }
+
+.owl-demo {
+  background-color: lightgrey; }
+
+.resume {
+  padding: 20px 0; }
+  .resume .font {
+    font-size: 1em; }
+  .resume .edu {
+    margin-top: 60px; }
+  .resume .exp {
+    margin-top: 345px; }
+  .resume .fro {
+    margin-top: 135px; }
+  .resume .gr8 {
+    margin-top: 135px; }
+  .resume .uni {
+    margin-top: 120px; }
+  .resume .sma {
+    margin-top: 160px; }
+  .resume .usn {
+    margin-top: 160px; }
+
+.mystats {
+  padding: 10px;
+  background-color: lightgrey; }
+  .mystats .myst {
+    margin: auto; }
+
+.whaticando {
+  padding: 10px 0; }
+  .whaticando .wha {
+    font-size: 1.5em; }
+  .whaticando .mys {
+    font-size: 1em; }
+  .whaticando .fa-forumbee {
+    margin-top: 20px; }
+  .whaticando .tex {
+    margin-bottom: 10px; }
+  .whaticando .fa-eye {
+    margin-top: 20px; }
+  .whaticando .cle {
+    margin-bottom: 10px; }
+  .whaticando .fa-slideshare {
+    margin-top: 90px; }
+  .whaticando .sli {
+    margin-bottom: 10px; }
+  .whaticando .fa-desktop {
+    margin-top: 20px; }
+  .whaticando .res {
+    margin-bottom: 10px; }
+  .whaticando .fa-wrench {
+    margin-top: 87px; }
+  .whaticando .eas {
+    margin-top: 1px;
+    margin-bottom: 7px; }
+  .whaticando .fa-ambulance {
+    margin-top: 23px; }
+  .whaticando .sup {
+    margin-bottom: 10px; }
+  .whaticando .rot {
+    text-align: center;
+    color: red; }
+  .whaticando .col-md-4 {
+    padding: 15px; }
+
+.contactinfo {
+  padding: 5px; }
+
+#name h1 {
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 20px; }
+#name p {
+  font-size: 1em;
+  color: grey;
+  margin-left: 20px; }
+
+.skillset {
+  padding: 10px 0; }
+  .skillset .ski {
+    margin-top: 10px; }
+  .skillset img {
+    margin-top: 10px; }
+  .skillset .soc {
+    width: 100%;
+    font-size: 1em;
+    text-align: center; }
+  .skillset .progress {
+    border-style: solid; }
+  .skillset a {
+    margin-left: 20px; }
+  .skillset .col-md-6 h3 {
+    margin-top: 10px;
+    font-size: 2em; }
+
+.stats {
+  padding: 5px 0;
+  background-color: lightgrey; }
+  .stats .myst {
+    margin-left: 7px; }
+  .stats .timer {
+    font-size: 1em; }
+  .stats .timed {
+    font-size: 1em; }
+  .stats .times {
+    font-size: 1em; }
+  .stats .size {
+    font-size: 1em; }
+
+.last {
+  background-color: black;
+  padding: 5px; }
+  .last p {
+    color: white; }
+  .last h3 {
+    color: white; }
+  .last ul, .last a {
+    color: white;
+    font-weight: bold; }
+  .last .name {
+    margin-top: 50px; }
+  .last .form-control {
+    margin-top: 5px; }
+  .last .btn-primary {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+
+footer {
+  background-color: black;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
