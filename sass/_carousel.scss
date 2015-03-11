@@ -1,0 +1,18 @@
+#carousel-jumbotron {
+	img {
+		border: solid thin black;
+		width: 100%;
+	}
+}
+
+.carousel-caption {
+	text-align: center;
+	h1 {
+		font-size: 2em;
+	}
+	p {
+		margin-bottom: 225px;
+		color: red;
+		font-size: 1em;
+	}
+}

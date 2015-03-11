@@ -1,116 +1,113 @@
 /*nav {
     background-color: black;    
 }*/
-.background-image {
+/*.background-image {
     background-image: url("14.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 575px;
     margin-top: 25px;
-}
-.container-fluid {
+}*/
+/*.container-fluid {
     padding: 15px;
     background-color: lightgrey;
-}
-.col-md-6 {
+}*/
+/*.col-md-6 {
     text-align: left;
-}
-.col-md-4 {
+}*/
+/*.col-md-4 {
     padding: 15px;
-}
-a {
+}*/
+/*a {
     color: #FFFFFF;
     font-size: 12px;
     border: 0;
-}
-h1 {
+}*/
+/*h1 {
     margin-top: 165px;
     text-align: center;
     color: #FFFFFF;
-}
-h2 {
+}*/
+/*h2 {
     text-align: left;
     color: #FFFFFF;
-}
-h4 {
+}*/
+/*h4 {
     text-align: center;
     color: #FFFFFF;
-}
-h5 {
+}*/
+/*h5 {
     color: black;
-}
-.rot {
+}*/
+/*.rot {
     text-align: center;
     color: red;
-}
-.ski {
+}*/
+/*.ski {
     margin-top: 15px;
-}
-.name {
+}*/
+/*.name {
     color: black;
     text-align: left;
-}
-.size {
+}*/
+/*.size {
     font-size: 15px;
-}
-.font {
-    font-size: 15px;
-}
-.button {
+}*/
+/*.button {
     border-style: solid;
     background-color: black;
     color: red;
-}
-.edu {
+}*/
+/*.edu {
     margin-top: 60px;
 }
 .exp {
     margin-top: 380px;
-}
-.fro {
+}*/
+/*.fro {
     margin-top: 135px;
-}
-.gr8 {
+}*/
+/*.gr8 {
     margin-top: 135px;
-}
-.uni {
+}*/
+/*.uni {
     margin-top: 140px;
-}
-.sma {
+}*/
+/*.sma {
     margin-top: 180px;
-}
-.usn {
+}*/
+/*.usn {
     margin-top: 180px;
-}
-.bottom {
+}*/
+/*.bottom {
     color: white;
-}
-.progress {
+}*/
+/*.progress {
     border-style: solid;
-}
-.btn-primary {
+}*/
+/*.btn-primary {
     margin-top: 5px;
     margin-bottom: 20px;
-}
-.con {
+}*/
+/*.con {
     margin-top: 90px;
-}
-.ilo {
+}*/
+/*.ilo {
     margin-top: 50px;
-}
-.soc {
+}*/
+/*.soc {
     margin-left: 25px;
-}
-.wha {
+}*/
+/*.wha {
     font-size: 14pt;
-}
-.mys {
+}*/
+/*.mys {
     font-size: 12pt;
-}
-.myst {
+}*/
+/*.myst {
     margin-left: 85px;
-}
-.timer {
+}*/
+/*.timer {
     font-size: 14pt;
 }
 .timed {
@@ -118,35 +115,35 @@ h5 {
 }
 .times {
     font-size: 14pt;
-}
-.fa-forumbee {
+}*/
+/*.fa-forumbee {
     margin-top: 25px;
-}
-.fa-eye {
+}*/
+/*.fa-eye {
     margin-top: 20px;
-}
-.tex {
+}*/
+/*.tex {
     margin-bottom: 10px;
-}
-.cle {
+}*/
+/*.cle {
     margin-bottom: 10px;
-}
-.fa-slideshare {
+}*/
+/*.fa-slideshare {
     margin-top: 90px;
-}
-.sli {
+}*/
+/*.sli {
     margin-bottom: 10px;
-}
-.fa-desktop {
+}*/
+/*.fa-desktop {
     margin-top: 25px;
-}
-.res {
+}*/
+/*.res {
     margin-bottom: 10px;
-}
-.fa-wrench {
+}*/
+/*.fa-wrench {
     margin-top: 90px;
-}
-.eas {
+}*/
+/*.eas {
     margin-bottom: 10px;
 }
 .fa-ambulance {
@@ -154,22 +151,22 @@ h5 {
 }
 .sup {
     margin-bottom: 10px
-}
+}*/
 /*How to style your unorganized lists*/
 
-ul {
+/*ul {
     font-weight: bold;
-}
-textarea, input {
+}*/
+/*textarea, input {
     color: black;
-}
-.name {
+}*/
+/*.name {
     margin-top: 200px;
-}
-.form-control {
+}*/
+/*.form-control {
     margin-top: 5px;
-}
-textarea {
+}*/
+/*textarea {
     width: 50%;
     height: 50%;
-}
+}*/
