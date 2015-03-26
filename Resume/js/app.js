@@ -44,3 +44,10 @@ $(document).ready(function() {
         reFreshInterval: 50,
     });
 });
+
+// OriDomi folding paper effect
+var folded = new OriDomi(document.getElementsByClassName('paper')[0]);
+
+var demo = new OriDomi('.paper2', {
+    vPanels: 10,
+});
