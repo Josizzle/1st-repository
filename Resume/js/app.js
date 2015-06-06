@@ -27,19 +27,19 @@ $(document).ready(function() {
     // countTo code //
     $('.timer').countTo({
         from: 0,
-        to: 32,
+        to: 50,
         speed: 5000,
         reFreshInterval: 50,
     });
     $('.timed').countTo({
         from: 0,
-        to: 1000,
+        to: 3000,
         speed: 3500,
         reFreshInterval: 50,
     });
     $('.times').countTo({
         from: 0,
-        to: 300,
+        to: 350,
         speed: 3000,
         reFreshInterval: 50,
     });
